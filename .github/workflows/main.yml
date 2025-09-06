@@ -1,11 +1,14 @@
-name: agrim1995 
-on:
-  push
-  branches:[main]
-jobs:
-demo:
-   runs-on:ubuntu-latest
+name: Agrim
 
-steps:
--name :Greetings
-run :echo "Hello world"
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greetings
+        run: echo "Hello world"
