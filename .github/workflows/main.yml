@@ -1,0 +1,11 @@
+name: Agrim sharma
+on:
+  push
+  branches:[main]
+jobs:
+demo:
+runs-on:ubuntu-latest
+
+steps:
+-name :Greeting
+run: echo "Hello world"
